@@ -1,7 +1,4 @@
 # CaloRhythm
-
-
-
  
 ## Overview
 
@@ -18,10 +15,10 @@ While modern society provides an abundance of food, it has also led to widesprea
   fall within a user-defined range, normalized per 100-calorie serving.
 
 ## Contributing  
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for the process for submitting pull requests to us.
+Please read [Contributing.md](Contributing.md) for the process for submitting pull requests to us.
 
 ## Code of Conduct  
-Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct.
+Please read [Code_of_conduct.md](Code_of_conduct.md) for details on our code of conduct.
 
 ## License
 This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for details.
