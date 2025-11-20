@@ -23,7 +23,7 @@ For **feature requests**, describe:
 
 This is a simple and small-scale project, and our branch strategy reflects that.
 
-- After each release, new `feature/fix` branches and a `docs` branch are created based on the version.
+- After each release, new `feature/fix` branches and a `docs` branch are created from main branch based on the version.
 - **Feature/fix branches** are used for adding new features, making improvements, and addressing bugs.
 - **Docs branches** are used when documentation updates are needed.
 
