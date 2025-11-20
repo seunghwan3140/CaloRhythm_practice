@@ -15,13 +15,13 @@ While modern society provides an abundance of food, it has also led to widesprea
   fall within a user-defined range, normalized per 100-calorie serving.
 
 ## Contributing  
-Please read [Contributing.md](Contributing.md) for the process for submitting pull requests to us.
+Please read [Contributing](Contributing.md) for the process for submitting pull requests to us.
 
 ## Code of Conduct  
-Please read [Code_of_conduct.md](Code_of_conduct.md) for details on our code of conduct.
+Please read [Code of conduct](Code_of_conduct.md) for details on our code of conduct.
 
 ## requirements
-Please read [requirements.md](requirements.md) for using the Nutritional Calculation.
+Please read [requirements](requirements.md) for using the Nutritional Calculation.
 
 ## License
 This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for details.
