@@ -5,3 +5,6 @@ An intelligent nutrition calculator providing personalized meal plans and Korea-
 ***
 
 ## d
+1. ㅇㅇㅇ
+2. ㄹㄹㄹ
+3. ㅎㅎㅎ
