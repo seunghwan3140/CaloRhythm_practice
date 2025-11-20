@@ -27,7 +27,8 @@ This is a simple and small-scale project, and our branch strategy reflects that.
 - **Feature/fix branches** are used for adding new features, making improvements, and addressing bugs.
 - **Docs branches** are used when documentation updates are needed.
 
-This strategy may evolve as the project grows.
+Once the work on each branch is completed, it will be reviewed and then merged into the main branch. 
+A new version will be released thereafter.
 
 ---
 
