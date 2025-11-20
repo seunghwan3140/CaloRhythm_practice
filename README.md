@@ -17,4 +17,13 @@ While modern society provides an abundance of food, it has also led to widesprea
 - Food Discovery by Nutrient Density: Ranks foods that are highest or lowest in a specific nutrient or filters foods that   
   fall within a user-defined range, normalized per 100-calorie serving.
 
-  ㅇㅇ이ㅣ[LICENSE](LICENSE)
+## Contributing  
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for the process for submitting pull requests to us.
+
+## Code of Conduct  
+Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct.
+
+## License
+This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for details.
+
+
