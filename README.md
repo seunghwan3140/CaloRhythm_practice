@@ -23,4 +23,9 @@ Please read [Code_of_conduct.md](Code_of_conduct.md) for details on our code of 
 ## License
 This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for details.
 
+## Community Discussions
+If you would like to discuss ideas or have additional questions, feel free to use the Discussions tab.  
+It’s a space for open conversation, questions, and community engagement.
+
+
 
