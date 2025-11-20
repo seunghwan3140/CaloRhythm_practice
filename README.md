@@ -29,7 +29,8 @@ This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE
 ## Community Discussions
 If you would like to discuss ideas or have additional questions, feel free to use the Discussions tab.  
 It’s a space for open conversation, questions, and community engagement.
+
 ---
-Our documentation may be updated as needed.
+**Our documentation may be updated as needed.**
 
 
