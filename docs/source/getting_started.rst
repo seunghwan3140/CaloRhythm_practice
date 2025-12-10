@@ -5,45 +5,67 @@ This guide explains how to install and run the CaloRhythm application locally.
 
 Prerequisites
 -------------
-- Python 3.9+
-- MySQL (for storing nutrition data)
-- pip package manager
-- Git
-- Required libraries listed in ``requirements.txt`` :contentReference[oaicite:2]{index=2}
+Before you begin, ensure you have the following installed:
+
+- **Python 3.9+** (Tested on Python 3.9 and 3.10)
+- **Git** (for version control)
+- **pip** package manager
+
+You will also need the **National Standard Food Composition Database (Excel file)**, which is essential for the application to function.
 
 Installation
 ------------
 
-Clone the repository:
+1. **Clone the repository:**
 
-.. code-block:: bash
+   .. code-block:: bash
 
-   git clone https://github.com/seunghwan3140/CaloRhythm
-   cd CaloRhythm
+      git clone https://github.com/seunghwan3140/CaloRhythm.git
+      cd CaloRhythm
 
-Install dependencies:
+2. **Install dependencies:**
+   
+   The project requires scientific computing libraries such as ``streamlit``, ``pandas``, ``scipy``, ``altair``, and ``openpyxl``.
 
-.. code-block:: bash
+   .. code-block:: bash
 
-   pip install -r requirements.txt
+      pip install -r requirements.txt
 
 Database Setup
 --------------
-The system requires nutrition data in a MySQL database.  
-You must:
+CaloRhythm operates on a file-based database system using the **Korean National Standard Food Composition Database**.
+**No SQL server installation (MySQL, PostgreSQL) is required.**
 
-1. Install MySQL server  
-2. Create schema & import nutrient data  
-3. Configure your credentials inside the application  
+Follow these steps to set up the data:
+
+1.  **Download Data:**
+    Visit the [Rural Development Administration (RDA)](http://koreanfood.rda.go.kr/) website and download the latest **"National Standard Food Composition Database (v10.3)"** in Excel format.
+
+2.  **Prepare the File:**
+    * Open the Excel file.
+    * **Important:** Keep only the main datasheet (usually named 'Database') and **delete all other sheets** (Introduction, Appendices, etc.) to prevent loading errors.
+    * Save the file as ``data.xlsx``.
+
+3.  **Place the File:**
+    Move the ``data.xlsx`` file into the **root directory** of the project (the same folder where ``main.py`` is located).
+
+    ::
+
+        CaloRhythm/
+        ├── .git/
+        ├── docs/
+        ├── main.py
+        ├── requirements.txt
+        └── data.xlsx  <-- Place file here
 
 Running the Application
 -----------------------
 
-CaloRhythm uses Streamlit as its UI framework:
+Once the dependencies are installed and ``data.xlsx`` is in place, start the application using Streamlit:
 
 .. code-block:: bash
 
    streamlit run main.py
 
-Once launched, you will see the nutrition calculator, optimizer, and nutrient
-discovery tools.
+The application will launch in your default web browser (usually at ``http://localhost:8501``).
+You will see the **Home** screen confirming that the database has been loaded successfully.
