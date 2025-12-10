@@ -3,7 +3,7 @@ description: Official project website for CaloRhythm
 theme: jekyll-theme-cayman
 
 url: "https://seunghwan3140.github.io"
-baseurl: "/CaloRhythm"
+baseurl: "/CaloRhythm_practice"
 
 markdown: kramdown
 
