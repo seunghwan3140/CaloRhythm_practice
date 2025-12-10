@@ -1,4 +1,4 @@
-About the Project
+About the Projectㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
 =================
 
 CaloRhythm is an open-source nutrition analysis system designed to help users
@@ -32,3 +32,4 @@ Open Source Philosophy
 CaloRhythm is open source to ensure accessibility and collaboration.  
 The Apache 2.0 license allows anyone to use, modify, and distribute the project
 freely, promoting community engagement and contributions.
+
